@@ -6,7 +6,7 @@ import streamlit as st
 from PIL import Image
 
 # Path for Tesseract executable
-pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+pytesseract.pytesseract.tesseract_cmd = "/usr/bin/tesseract"
 
 # Function to detect text regions
 def text_detect(img, ele_size=(8, 2)):
