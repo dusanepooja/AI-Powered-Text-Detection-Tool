@@ -32,8 +32,7 @@ Tesseract OCR installed on your system.
 Steps
 1. Clone the repository:
 
-git clone https://github.com/dusanepooja/ai-text-detection-tool.git  
-cd ai-text-detection-tool 
+git clone https://github.com/dusanepooja/ai-text-detection-tool.git   
 
 2. Install dependencies:
 
@@ -41,15 +40,13 @@ pip install -r requirements.txt
 
 3. Set up Tesseract:
 
-Windows:
-
-Download Tesseract and update the executable path in the code:
+Windows:   Download Tesseract and update the executable path in the code:
 
 pytesseract.pytesseract.tesseract_cmd = "C:\\Program Files\\Tesseract-OCR\\tesseract.exe"  
 
 4. Run the app:
 
-streamlit run app.py  
+streamlit run manage.py  
 
 🛠️ How It Works
 
