@@ -30,27 +30,24 @@ Python 3.8+
 Tesseract OCR installed on your system.
 
 Steps
-Clone the repository:
+1. Clone the repository:
 
 git clone https://github.com/dusanepooja/ai-text-detection-tool.git  
 cd ai-text-detection-tool 
 
-Install dependencies:
+2. Install dependencies:
 
 pip install -r requirements.txt  
-Set up Tesseract:
 
-Linux:
-
-sudo apt-get install tesseract-ocr 
+3. Set up Tesseract:
 
 Windows:
 
-Download Tesseract from here and update the executable path in the code:
+Download Tesseract and update the executable path in the code:
 
 pytesseract.pytesseract.tesseract_cmd = "C:\\Program Files\\Tesseract-OCR\\tesseract.exe"  
 
-Run the app:
+4. Run the app:
 
 streamlit run app.py  
 
@@ -62,12 +59,14 @@ Real-Time Visualization: Highlights text regions on the uploaded image.
 Extract & Download: Extracted text is displayed and can be downloaded in one click!
 
 🌐 Powered By
+
 🔹 Python for robust programming.
 🔹 OpenCV for efficient image processing.
 🔹 Tesseract OCR for accurate text extraction.
 🔹 Streamlit for an intuitive and interactive UI.
 
 📸 Example Workflow
+
 Input:
 Upload an image like this:
 
