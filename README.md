@@ -32,7 +32,8 @@ Tesseract OCR installed on your system.
 Steps
 1. Clone the repository:
 
-git clone https://github.com/dusanepooja/ai-text-detection-tool.git   
+git clone https://github.com/dusanepooja/ai-text-detection-tool.git  
+cd ai-text-detection-tool
 
 2. Install dependencies:
 
@@ -76,7 +77,7 @@ OpenCV for robust image processing.
 Tesseract OCR for text recognition.
 Streamlit for the user-friendly interface.
 
-Contributor
+🌟 Contributor
 
 Pooja Dusane
 
